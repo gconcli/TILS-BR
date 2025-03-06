@@ -1,0 +1,137 @@
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://ftp.tilsbr.com.br" ftp_rootfolder="/public_html" exportTarget="FTP" domain="tilsbr.com.br" resolutions="1x" timestamp="1553290055438">
+  <folder name="css">
+    <file name="site_global.css" crc="479761264"/>
+    <file name="master_a-mestre.css" crc="434064748" ref="nome-do-cliente--nome-da-pagina:index"/>
+    <file name="nomq_preview_master_a-mestre.css" crc="29578497" ref="nome-do-cliente--nome-da-pagina:index"/>
+    <file name="nome-do-cliente--nome-da-pagina.css" crc="206110453" ref="nome-do-cliente--nome-da-pagina"/>
+    <file name="nomq_nome-do-cliente--nome-da-pagina.css" crc="3847488839" ref="nome-do-cliente--nome-da-pagina"/>
+    <file name="index.css" crc="459458514" ref="index"/>
+    <file name="nomq_index.css" crc="42869689" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:nome-do-cliente--nome-da-pagina"/>
+    <file name="museutils.js" crc="340535759" ref="index:nome-do-cliente--nome-da-pagina"/>
+    <file name="whatinput.js" crc="86476730" ref="index:nome-do-cliente--nome-da-pagina"/>
+    <file name="museconfig.js" crc="310584261" ref="index:nome-do-cliente--nome-da-pagina"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:nome-do-cliente--nome-da-pagina"/>
+    <file name="webpro.js" crc="4059564322" ref="index"/>
+    <file name="musewpdisclosure.js" crc="3883500470" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:nome-do-cliente--nome-da-pagina"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:nome-do-cliente--nome-da-pagina"/>
+    <file name="require.js" crc="7928878" ref="index:nome-do-cliente--nome-da-pagina"/>
+  </folder>
+  <folder name="images">
+    <file name="a-mestre-favicon.ico" crc="86306589" ref="index"/>
+    <file name="fundobanner2.jpg" crc="507887031" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="v-transparente.png" crc="433097828" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ban-u1633-fr.png" crc="512047763" ref="index"/>
+    <file name="fundo2.jpg" crc="535065612" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="b2.png" crc="4213179051" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vetqmsomos.png" crc="4030678252" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="b1.png" crc="210996138" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="fundo3.jpg" crc="3786754350" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="who-u1812-fr.png" crc="523238590" ref="index"/>
+    <file name="conts.png" crc="4224235530" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pin.png" crc="294714785" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="clock.png" crc="3927579808" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="phone.png" crc="91954664" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mail.png" crc="4013286456" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="facebook-logo-button-(1).svg" crc="200355964" seo="true" ref="index:nome-do-cliente--nome-da-pagina">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="nome-do-cliente--nome-da-pagina" alt=""/>
+      <caption webpage="nome-do-cliente--nome-da-pagina" alt=""/>
+    </file>
+    <file name="facebook-logo-button (1)_poster_.png" crc="4235113470" ref="index"/>
+    <file name="instagram-logo-(1).svg" crc="3796460705" seo="true" ref="index:nome-do-cliente--nome-da-pagina">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="nome-do-cliente--nome-da-pagina" alt=""/>
+      <caption webpage="nome-do-cliente--nome-da-pagina" alt=""/>
+    </file>
+    <file name="instagram-logo (1)_poster_.png" crc="3922703353" ref="index"/>
+    <file name="fundobanner2-u1496-fr.jpg" crc="4073066832" ref="index"/>
+    <file name="ban-u1633-fr2.png" crc="3787369970" ref="index"/>
+    <file name="fundo2-u1713-fr.jpg" crc="4129016746" ref="index"/>
+    <file name="vetqmsomos-u1724-fr.png" crc="343544403" ref="index"/>
+    <file name="fundo3-u1811-fr.jpg" crc="4064561760" ref="index"/>
+    <file name="who-u1812-fr2.png" crc="4291268516" ref="index"/>
+    <file name="pin-u1936-fr.png" crc="4039417765" ref="index"/>
+    <file name="clock-u1947-fr.png" crc="4178727077" ref="index"/>
+    <file name="phone-u1950-fr.png" crc="3979675079" ref="index"/>
+    <file name="mail-u1953-fr.png" crc="4160411597" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:nome-do-cliente--nome-da-pagina"/>
+  </folder>
+  <file name="index.html" crc="120017982" seo="true" mt="1553290020213" redirect="true"/>
+  <file name="nome-do-cliente--nome-da-pagina.html" crc="202266173" seo="true" mt="1553121043416" redirect="true"/>
+  <site>
+    <paragraphStyle className="normal_text" uid="U49"/>
+    <paragraphStyle className="H1-centro" uid="U123"/>
+    <paragraphStyle className="Menu-H3" uid="U174"/>
+    <paragraphStyle className="Paragrafo-Medio-esquerda" uid="U178"/>
+    <paragraphStyle className="Paragrafo-Grande-Esquerda" uid="U182"/>
+    <paragraphStyle className="H1-esquerda" uid="U183"/>
+    <paragraphStyle className="Paragrafo-Grande-centro" uid="U187"/>
+    <paragraphStyle className="Paragrafo-Medio-Centro" uid="U188"/>
+    <paragraphStyle className="Botao-H3" uid="U198"/>
+    <paragraphStyle className="Titulo-da-sess-o-H2-esquerda" uid="U205"/>
+    <paragraphStyle className="Titulo-da-sess-o-H2-centro" uid="U206"/>
+    <paragraphStyle className="Titulo-Medio-H2-centro" uid="U207"/>
+    <paragraphStyle className="Titulo-Medio-H2-esquerda" uid="U208"/>
+    <paragraphStyle className="Titulo-Pequeno-H2-centro" uid="U209"/>
+    <paragraphStyle className="Titulo-Pequeno-H2-esquerda" uid="U210"/>
+    <paragraphStyle className="Paragrafo-Pequeno-esquerda" uid="U211"/>
+    <paragraphStyle className="Paragrafo-Pequeno-centro" uid="U212"/>
+    <paragraphStyle className="Botoes" uid="U2594"/>
+    <nestedListStyle className="nls-None" uid="U52"/>
+  </site>
+  <renditions>
+    <rendition device="desktop">
+      <page name="TILS - Total Immersion Language School" filename="index.html" muse_href="page:U93" master="U72">
+        <breakpoint uid="U2124" maxwidth="640" minwidth="0" squishy="true"/>
+        <breakpoint uid="U83" maxwidth="1560" minwidth="641" squishy="false"/>
+        <anchor name="contato" html_id="contato" muse_href="anchor:U82:U1924" includeInBPs="U2124,U83"/>
+        <anchor name="sobre" html_id="sobre" muse_href="anchor:U82:U1927" includeInBPs="U2124,U83"/>
+        <anchor name="cursos" html_id="cursos" muse_href="anchor:U82:U1930" includeInBPs="U2124,U83"/>
+        <anchor name="home" html_id="home" muse_href="anchor:U82:U1933" includeInBPs="U2124,U83"/>
+      </page>
+      <masterPage name="A-mestre" master="U62" uid="U72">
+        <breakpoint uid="U2046" maxwidth="640" minwidth="0" squishy="true"/>
+        <breakpoint uid="U73" maxwidth="1560" minwidth="641" squishy="false"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U62">
+        <breakpoint uid="U63" maxwidth="1360" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="Nome do cliente | Nome da pagina" filename="nome-do-cliente--nome-da-pagina.html" muse_href="page:U1172" master="U72">
+        <breakpoint uid="U1140" maxwidth="1360" minwidth="0" squishy="true"/>
+      </page>
+    </rendition>
+  </renditions>
+</manifest>
