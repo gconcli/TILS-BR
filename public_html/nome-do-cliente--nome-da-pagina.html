@@ -157,6 +157,7 @@ var suppressMissingFileError = false
                   break;
                 case "js":
                 case "bgsize":
+                case "musemenu":
                   j++;
                   break;
                 default:
@@ -202,7 +203,7 @@ var suppressMissingFileError = false
       });
     });
   };
- </script>
+ </script> 
  
   <!-- RequireJS script -->
   <script src="./scripts/require.js" type="text/javascript" async data-main="./scripts/museconfig.js" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
