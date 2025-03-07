@@ -282,7 +282,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 <!-- NOME -->
 <input type="text" name="nome" placeholder="Nome" required="true" value="">
 <!-- EMAIL -->
-<input type="text" name="email" placeholder="E-mail" required="true" value="">
+<input type="email" name="email" id="email" placeholder="E-mail" required autocomplete="email">
 <!-- FONE -->
 
 <input type="text" name="telefone" placeholder="Telefone" data-
@@ -292,10 +292,10 @@ mask="CODEANDPHONE|15" required="true" value="">
 TEXTAREA -->
 <!-- MENSAGEM -->
 <textarea name="mensagem" rows="4" cols="80" placeholder="Mensagem"></textarea>
-<label class="mensagem"></label>
-<label class="enviando-form">Enviado...</label>
-<label class="form-enviado">formulário enviado com sucesso</label>
-<label class="form-erro">Ops ocorreu um erro.</label>
+<span class="mensagem"></span>
+<div class="enviando-form">Enviado...</div>
+<div class="form-enviado">Formulário enviado com sucesso</div>
+<div class="form-erro">Ops, ocorreu um erro.</div>
 <button type="submit">ENVIAR</button>
 </form>
 <!-- ALTERAR DESIGN -->
