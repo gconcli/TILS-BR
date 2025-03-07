@@ -627,7 +627,7 @@ var suppressMissingFileError = false
               return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),
               (parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);
             if(a.match(/^\#/))
-              return parseInt(a.substr(1), 16);
+              return parseInt(a.substr(1),16);
             return 0
           },
           f=function(f){
@@ -652,20 +652,21 @@ var suppressMissingFileError = false
                 j++;
                 continue;
               }
-              switch(k.toLowerCase()){
+              switch((k || "").toLowerCase()){
                 case "css":
                   i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");
                   g.className+=" "+i;
                   i=a(d(g,"color"));
                   k=a(d(g,"backgroundColor"));
-                  i!=0||k!=0 ? (Muse.assets.required.splice(j,1),
-                    "undefined"!=typeof b[l] &&
-                    (i!=b[l]>>>24 || k!=(b[l]&16777215)) &&
+                  i!=0 || k!=0 ? (Muse.assets.required.splice(j,1),
+                    "undefined" != typeof b[l] &&
+                    (i != b[l]>>>24 || k != (b[l] & 16777215)) &&
                     Muse.assets.outOfDate.push(l))
                     : j++;
                   g.className="version";
                   break;
                 case "js":
+                case "bgsize":
                   j++;
                   break;
                 default:
