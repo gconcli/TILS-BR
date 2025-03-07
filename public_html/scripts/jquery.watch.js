@@ -40,4 +40,4 @@
         }
     })
 });
-; (function () { if (!("undefined" == typeof Muse || "undefined" == typeof Muse.assets)) { var c = function (a, b) { for (var c = 0, d = a.length; c < d; c++)if (a[c] == b) return c; return -1 }(Muse.assets.required, "jquery.watch.js"); if (-1 != c) { Muse.assets.required.splice(c, 1); for (var c = document.getElementsByTagName("meta"), b = 0, d = c.length; b < d; b++) { var a = c[b]; if ("generator" == a.getAttribute("name")) { "2018.1.0.386" != a.getAttribute("content") && Muse.assets.outOfDate.push("jquery.watch.js"); break } } } } })();
+; (function () { if (!("undefined" == typeof Muse || "undefined" == typeof Muse.assets)) { var c = function (a, b) { for (var c = 0, d = a.length; c < d; c++)if (a[c] == b) return c; return -1 }(Muse.assets.required, "jquery.watch"); if (-1 != c) { Muse.assets.required.splice(c, 1); for (var c = document.getElementsByTagName("meta"), b = 0, d = c.length; b < d; b++) { var a = c[b]; if ("generator" == a.getAttribute("name")) { "2018.1.0.386" != a.getAttribute("content") && Muse.assets.outOfDate.push("jquery.watch"); break } } } } })();
