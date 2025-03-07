@@ -14,12 +14,12 @@ document.documentElement.className = document.documentElement.className.replace(
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "nome-do-cliente--nome-da-pagina.css"], "outOfDate":[]};
 </script>
   
-  <link rel="shortcut icon" href="images/a-mestre-favicon.ico?crc=86306589"/>
+  <link rel="shortcut icon" href="./public_html/images/a-mestre-favicon.ico?crc=86306589"/>
   <title>Nome do cliente | Nome da pagina</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=479761264"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-mestre.css?crc=210666552"/>
-  <link rel="stylesheet" type="text/css" href="css/nome-do-cliente--nome-da-pagina.css?crc=206110453" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="./public_html/css/site_global.css?crc=479761264"/>
+  <link rel="stylesheet" type="text/css" href="./public_html/css/master_a-mestre.css?crc=210666552"/>
+  <link rel="stylesheet" type="text/css" href="./public_html/css/nome-do-cliente--nome-da-pagina.css?crc=206110453" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-mestre.css?crc=325269604"/>
@@ -56,14 +56,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
 <style type="text/css">
 
-<!--
-
-html{
-overflow-x:hidden;
-
-}
-
--->
 
 </style>
  </head>
@@ -126,6 +118,6 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 
 </script>
   <!-- RequireJS script -->
-  <script src="scripts/require.js?crc=7928878" type="text/javascript" async data-main="scripts/museconfig.js?crc=310584261" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  <script src="./scripts/require.js" type="text/javascript" async data-main="./scripts/museconfig.js" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
    </body>
 </html>
